@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk header */
+header {
+    background-color: #007bff; /* Warna latar belakang biru */
+    padding: 10px 0;
+}
+
+/* Gaya untuk navigasi */
+header nav {
+    text-align: center;
+}
+
+/* Gaya untuk daftar navigasi */
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Jarak antar item */
+}
+
+/* Gaya untuk link navigasi */
+header nav ul li a {
+    text-decoration: none; /* Hilangkan garis bawah */
+    color: white; /* Warna teks putih */
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Efek hover pada link navigasi */
+header nav ul li a:hover {
+    background-color: #0056b3; /* Warna saat dihover */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.book-list-arrow {
+    background: #ffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+
+}
+
+.book-item:hover {
+    transform: scale(1.05);
+}
+
+.book-cover-wrapper {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book-info {
+    padding: 15px;
+    }
+    
+.book-tittle {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px 0 5px;
+}
+
+.book-author {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk tombol detail buku */
+.book-details-button {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Efek saat hover pada tombol detail */
+.book-details-button:hover {
+    background-color: #0056b3;
+}
+
+/* Gaya untuk pagination */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Gaya untuk link pagination */
+.pagination a {
+    padding: 10px 15px;
+    margin: 5px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Efek saat hover pada link pagination */
+.pagination a:hover {
+    background-color: #007bff;
+    color: white;
+}
