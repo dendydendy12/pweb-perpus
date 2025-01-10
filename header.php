@@ -12,6 +12,7 @@
 <body>
     <header>
         <nav>
+            <a href="#" class="logo">PerpusKu</a>
             <ul>
                 <li><a href="index.php">Beranda</a></li>
                 <li><a href="kategori.php">Kategori</a></li>
